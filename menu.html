@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="principal.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
     <title>Enny</title>
 </head>
 <body>
@@ -18,12 +19,26 @@
             <div class="menu__principal">
                 <h1>Oi, !</h1>
             </div>
-            <div class="menu__flex">
+            <div>
                 <div class="menu__conteudo">
-                    <label><input type="text" placeholder="Pesquisar"></label>  
-                </div>
-                
+                    <label><input class="menu__conteudo-input" type="text" placeholder="Pesquisar"></label>  
+                </div>  
             </div>  
+            <h2 class="menu__titulo">Categoria</h2>
+            <div class="menu__categoria">
+                <ul class="menu__flex">
+                    <li><a class="menu__flex-link" href="#">Sorvete</a></li>
+                    <li><a class="menu__flex-link" href="#">Bolos</a></li>
+                    <li><a class="menu__flex-link" href="#">Café</a></li>
+                </ul>
+            </div>
+            <h2 class="menu__titulo">Novidades da Semana</h2>
+            <div class="menu__novidades">
+                <div class="img ice-cream-cream"></div> 
+                <div class="img cake"></div>
+                <div class="img ice-cream-chocolate"></div>
+                <div class="img coffee"></div>
+            </div>
         </section>
     </main>   
 </body>

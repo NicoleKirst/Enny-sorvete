@@ -1,0 +1,97 @@
+.menu {
+    padding: 1.5rem;
+}
+
+.menu__principal {
+    color: var(--cinza-escuro);
+    margin-bottom: 3rem;
+}
+
+.menu__conteudo-input {
+    background: var(--cinza-claro);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    width: calc(100% - 1.5rem);
+}
+
+.menu__titulo {
+    color: var(--preto);
+    font-family: var(--font-principal);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.menu__flex {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__categoria{
+    margin-bottom: 4rem;
+}
+.menu__flex-link {
+    background-color: var(--branco-botao);
+    border-radius: 20px;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+}
+
+.menu__flex-link:hover {
+    background-color: var(--roxo);
+    color: var(--branco);
+}
+
+.menu__novidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: calc(320px - 24px);
+}
+
+.img {
+    background-color: var(--cinza-claro);
+    height: 140px;
+    width: 150px;
+}
+
+.ice-cream-cream {
+    background-image: url(../img/ice-cream-cream.jpg);
+    background-position: right;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.cake {
+    background-image: url(../img/cake.jpeg);
+    background-position: right;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.ice-cream-chocolate {
+    background-image: url(../img/ice-cream-chocolate.jpeg);
+    background-position: right;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.coffee {
+    background-image: url(../img/coffee.jpg);
+    background-position: right;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+@media (min-width: 610px){
+    .menu__conteudo-input {
+        width: 50%;
+    }
+
+    .menu__flex, .menu__novidades {
+        justify-content: space-around;
+    }
+}

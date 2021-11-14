@@ -1,9 +1,11 @@
 :root {
     --branco: #FFFFFF;
+    --branco-botao: #EFEEEE;
     --cinza-claro: #E8E6E6;
     --cinza-escuro: #5E5E5E;
     --cinza-escuro-botao: #999999;
-
+    --preto: #000000;
+    --roxo: #5C17CD;
     --degrade: linear-gradient(#4200FF, #FF00D6);
 
     --font-principal: 'Roboto', sans-serif;
