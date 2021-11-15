@@ -1,0 +1,45 @@
+.selecao {
+    padding: 2rem;
+}
+
+.selecao__titulo {
+    color: var(--cinza-escuro);
+    font-size: 1.8rem;
+    margin: 2rem 0;
+}
+
+.selecao__elementos-titulo {
+    background-color: var(--roxo);
+    color: var(--branco);   
+}
+
+.selecao__elementos-links {    
+    background-color: var(--cinza-claro);  
+    color: var(--roxo);
+}
+
+.padrao {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    height: 3rem;
+    margin-bottom: 5px ;
+    padding-left: 2rem;
+    width: calc(100% - 2rem);
+}
+
+@media (min-width: 700px) {
+    .container__conteudo-enviar {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+    }
+    
+    .enviar {
+        background: var(--cinza-escuro-botao);
+        border: none;
+        border-radius: 5px;
+        width: 8rem;
+        height: 2rem; 
+    }
+}

@@ -55,6 +55,7 @@ body {
 .container__conteudo-enviar {
     display: flex;
     justify-content: flex-end;
+    transition: 2s;
 }
 
 .enviar {
@@ -63,6 +64,11 @@ body {
     border-radius: 5px;
     width: 5rem;
     height: 1.5rem; 
+}
+
+.enviar:hover {
+    background: var(--roxo-escuro);
+    color: var(--branco);
 }
 
 @media (min-width: 700px) {
